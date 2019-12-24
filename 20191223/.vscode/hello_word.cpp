@@ -6,7 +6,8 @@ int main( )
     cin>>x;  
     int y=x*x;
     cout << "y=" << y << endl;
-    cout << "hello world"  << endl;
+    cout << "hello world" << endl;
+    cout << "git_rebase"  << endl;
     system("pause");
     return 0;  
 }
