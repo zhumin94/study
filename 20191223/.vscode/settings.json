@@ -1,0 +1,47 @@
+{
+    "files.defaultLanguage": "c", 
+    "editor.formatOnType": true, 
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.acceptSuggestionOnEnter": "off", 
+    
+    "c-cpp-flylint.cppcheck.enable": false,
+    "c-cpp-flylint.flexelint.enable": false,
+    "c-cpp-flylint.run": "onType", 
+    "c-cpp-flylint.clang.includePaths": [
+        "${workspaceFolder}",
+          "G:\\LLVM\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++",
+          "G:\\LLVM\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\x86_64-w64-mingw32",
+          "G:\\LLVM\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\backward",
+          "G:\\LLVM\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include",
+          "G:\\LLVM\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\tr1",
+          "G:\\LLVM\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include-fixed",
+          "G:\\LLVM\\include",
+          "G:\\LLVM\\x86_64-w64-mingw32\\include"
+    ],
+    "c-cpp-flylint.clang.defines": [
+        "_DEBUG",
+        "UNICODE",
+        "__GNUC__=7",
+        "__cdecl=__attribute__((__cdecl__))"
+    ],
+    "c-cpp-flylint.standard": [ 
+        "c11",
+        "c++1z"
+    ],
+
+    "code-runner.runInTerminal": true, 
+    "code-runner.executorMap": {
+        "c": "cd $dir && clang '$fileName' -o '$fileNameWithoutExt.exe' -Wall -g -O2 -static-libgcc --target=x86_64-w64-mingw -std=c11 && &'$dir$fileNameWithoutExt'",
+        "cpp": "cd $dir && clang++ '$fileName' -o '$fileNameWithoutExt.exe' -Wall -g -O2 -static-libgcc --target=x86_64-w64-mingw -std=c++17 && &'$dir$fileNameWithoutExt'"
+        
+    },
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.preserveFocus": true, 
+    "code-runner.clearPreviousOutput": false, 
+    "code-runner.ignoreSelection": true, 
+
+    "C_Cpp.clang_format_sortIncludes": true,
+    "C_Cpp.errorSquiggles": "Disabled", 
+    "C_Cpp.autocomplete": "Disabled", 
+    "C_Cpp.suggestSnippets": false, 
+}

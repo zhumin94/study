@@ -1,0 +1,37 @@
+{
+    "configurations": [
+      {
+        "name": "Win32",
+        "includePath": ["${workspaceFolder}",
+          "G:\\LLVM\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++",
+          "G:\\LLVM\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\x86_64-w64-mingw32",
+          "G:\\LLVM\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\backward",
+          "G:\\LLVM\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include",
+          "G:\\LLVM\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\tr1",
+          "G:\\LLVM\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include-fixed",
+          "G:\\LLVM\\include",
+          "G:\\LLVM\\x86_64-w64-mingw32\\include"],
+        "defines": ["_DEBUG", "UNICODE", "_UNICODE"],
+        "windowsSdkVersion": "10.0.17763.0",
+        "compilerPath": "G:\\LLVM\\bin\\clang++.exe",
+        "cStandard": "c11",
+        "cppStandard": "c++17",
+        "intelliSenseMode": "clang-x64",
+        "browse":{
+          "path":[
+            "G:\\LLVM\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++",
+            "G:\\LLVM\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\x86_64-w64-mingw32",
+            "G:\\LLVM\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\backward",
+            "G:\\LLVM\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include",
+            "G:\\LLVM\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\tr1",
+            "G:\\LLVM\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include-fixed",
+            "G:\\LLVM\\include",
+            "G:\\LLVM\\x86_64-w64-mingw32\\include"
+          ],
+          "limitSymbolsToIncludedHeaders": true,
+          "databaseFilename": ""
+        }
+      }
+    ],
+    "version": 4
+  }
