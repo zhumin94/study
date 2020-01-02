@@ -2,7 +2,8 @@
 using namespace std;  
 int main( )  
 {  
-    int x;  
+    int x;
+    cout << "input x value :" << endl;
     cin>>x;  
     int y=x*x;
     cout << "y=" << y << endl;
